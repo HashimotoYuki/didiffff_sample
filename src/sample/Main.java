@@ -14,7 +14,7 @@ public class Main {
     public static int getMax(int num1, int num2, int num3) {
         int max = 0;
         if (num1 < num2) {
-            if (num1 < num3) {
+            if (num2 < num3) {
                 max = num3;
             } else {
                 max = num2;
