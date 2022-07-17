@@ -2,6 +2,12 @@ package sample;
 
 public class Main {
     public static void main(String args[]) {
+    	int num1 = 10;
+    	int num2 = 30;
+    	int num3 = 20;
+    	
+    	int max = getMax(num1, num2, num3);
+    	System.out.println(num1+", "+num2+", "+num3+" -> max: "+max);
     }
 
     private static int[] intarray = new int[100];
