@@ -2,16 +2,12 @@ package sample;
 
 public class Main {
     public static void main(String args[]) {
-    	int num1 = 10;
-    	int num2 = 30;
-    	int num3 = 20;
-    	
-    	int max = getMax(num1, num2, num3);
-    	System.out.println(num1+", "+num2+", "+num3+" -> max: "+max);
+    	getMax(10, 20, 30);
+        getMax(10, 30, 20);
     }
 
     private static int[] intarray = new int[100];
-    public static int getMax(int num1, int num2, int num3) {
+    private static int getMax(int num1, int num2, int num3) {
         int max = 0;
         if (num1 < num2) {
             if (num2 < num3) {
